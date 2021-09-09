@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "ES2017",
         "module":"CommonJS",
-        "strictNullChecks": true
-    },
-    "include": ["**/*.ts"]
+        "strictNullChecks": true,
+        "rootDir": "./",
+        "outDir": "./dist/"
+    }
 }
