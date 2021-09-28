@@ -1,4 +1,4 @@
-import express from 'express';
+import * as express from 'express';
 import { heartbeat } from './v1/system';
 
 const router = express();

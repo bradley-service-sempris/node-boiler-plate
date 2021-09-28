@@ -1,0 +1,82 @@
+{
+	"extends": ["tslint:latest", "tslint-config-prettier"],
+	"rules": {
+		"curly": true,
+		"match-default-export-name": true,
+		"no-empty-interface": true,
+		"quotemark": [true, "single"],
+		"no-unnecessary-type-assertion": true,
+		"no-var-requires": true,
+		"no-duplicate-imports": true,
+		"no-duplicate-switch-case": true,
+		"no-duplicate-variable": true,
+		"only-arrow-functions": true,
+		"no-submodule-imports": false,
+		"no-unused-expression": true,
+		"no-floating-promises": true,
+		"no-this-assignment": true,
+		"no-unbound-method": true,
+		"no-unnecessary-class": true,
+		"no-var-keyword": true,
+		"prefer-object-spread": true,
+		"restrict-plus-operands": true,
+		"switch-default": true,
+		"triple-equals": true,
+		"eofline": true,
+		"linebreak-style": [true, "CRLF"],
+		"indent": [true, "tabs", 2],
+		"prefer-const": true,
+		"arrow-return-shorthand": true,
+		"align": [true, "parameters", "statements"],
+		"class-name": true,
+		"no-consecutive-blank-lines": [true, 2],
+		"no-parameter-properties": true,
+		"import-spacing": true,
+		"interface-name": true,
+		"no-trailing-whitespace": [true, "ignore-comments"],
+		"trailing-comma": false,
+		"no-unnecessary-initializer": true,
+		"no-unnecessary-qualifier": true,
+		"number-literal-format": true,
+		"object-literal-key-quotes": [true, "always"],
+		"object-literal-shorthand": true,
+		"prefer-function-over-method": false,
+		"prefer-template": true,
+		"semicolon": [true, "always"],
+		"space-before-function-paren": true,
+		"variable-name": false,
+		"max-line-length": false,
+		"no-implicit-dependencies": false,
+		"typedef": [
+			true,
+			"call-signature",
+			"arrow-call-signature",
+			"parameter",
+			"arrow-parameter",
+			"property-declaration",
+			"variable-declaration",
+			"member-variable-declaration",
+			"object-destructuring",
+			"array-destructuring"
+		],
+		"member-ordering": [
+			true,
+			{
+				"order": [
+					"public-static-field",
+					"public-instance-field",
+					"public-constructor",
+					"private-static-field",
+					"private-instance-field",
+					"private-constructor",
+					"public-instance-method",
+					"protected-instance-method",
+					"private-instance-method"
+				]
+			}
+		]
+	},
+	"jsRules": {
+		"curly": true
+	}
+}

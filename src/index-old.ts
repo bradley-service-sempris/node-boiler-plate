@@ -1,5 +1,5 @@
-import config from 'config';
-import express from 'express';
+import * as config from 'config';
+import * as express from 'express';
 import router from '../routes';
 
 (async () => {
